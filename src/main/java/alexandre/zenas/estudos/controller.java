@@ -1,7 +1,7 @@
 package alexandre.zenas.estudos;
 
-import alexandre.zenas.estudos.model.Students;
-import alexandre.zenas.estudos.model.Subjects;
+import alexandre.zenas.estudos.model.user.Students;
+import alexandre.zenas.estudos.model.subjects.Subjects;
 import alexandre.zenas.estudos.repository.StudentsRepository;
 import alexandre.zenas.estudos.repository.SubjectsRepository;
 import org.springframework.http.HttpStatus;

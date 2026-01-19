@@ -1,12 +1,13 @@
-package alexandre.zenas.estudos.model;
+package alexandre.zenas.estudos.model.user;
 
 import alexandre.zenas.estudos.enums.UserType;
+import alexandre.zenas.estudos.model.school.Schools;
 import jakarta.persistence.*;
 
 import java.util.UUID;
 
 @Entity
-@Table(name = "Users")
+@Table(name = "tb_user")
 @Inheritance(strategy = InheritanceType.JOINED)
 public class User {
     @Id

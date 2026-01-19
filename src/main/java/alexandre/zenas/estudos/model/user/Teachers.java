@@ -1,13 +1,15 @@
-package alexandre.zenas.estudos.model;
+package alexandre.zenas.estudos.model.user;
 
 import alexandre.zenas.estudos.enums.UserType;
+import alexandre.zenas.estudos.model.school.ClassSchool;
+import alexandre.zenas.estudos.model.subjects.Subjects;
 import jakarta.persistence.*;
 
 import java.util.List;
 
 @Entity
 @Table(name = "Teachers")
-public class Teachers extends User{
+public class Teachers extends User {
 
     @ManyToMany()
     @JoinTable(

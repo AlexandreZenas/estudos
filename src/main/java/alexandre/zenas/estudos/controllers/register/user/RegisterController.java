@@ -1,15 +1,13 @@
-package alexandre.zenas.estudos.controllers;
+package alexandre.zenas.estudos.controllers.register.user;
 
 import alexandre.zenas.estudos.dto.auth.RegisterDTO;
 import alexandre.zenas.estudos.dto.data.RegisterClassSchoolDTO;
-import alexandre.zenas.estudos.model.Students;
+import alexandre.zenas.estudos.model.user.Students;
 import alexandre.zenas.estudos.repository.UserRepository;
-import alexandre.zenas.estudos.services.classSchoolRegister.ClassSchoolRegister;
-import alexandre.zenas.estudos.services.userRegister.RegisterDirectorService;
-import alexandre.zenas.estudos.services.userRegister.RegisterStudentService;
-import alexandre.zenas.estudos.services.userRegister.RegisterTeacherService;
-import org.hibernate.sql.ast.tree.expression.SqlTuple;
-import org.springframework.http.HttpStatus;
+import alexandre.zenas.estudos.services.register.classSchool.ClassSchoolRegister;
+import alexandre.zenas.estudos.services.register.user.RegisterDirectorService;
+import alexandre.zenas.estudos.services.register.user.RegisterStudentService;
+import alexandre.zenas.estudos.services.register.user.RegisterTeacherService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

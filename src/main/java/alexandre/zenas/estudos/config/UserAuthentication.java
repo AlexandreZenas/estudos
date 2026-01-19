@@ -1,7 +1,7 @@
 package alexandre.zenas.estudos.config;
 
 
-import alexandre.zenas.estudos.model.User;
+import alexandre.zenas.estudos.model.user.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

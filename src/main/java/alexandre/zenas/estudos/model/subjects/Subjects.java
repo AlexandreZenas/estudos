@@ -1,5 +1,7 @@
-package alexandre.zenas.estudos.model;
+package alexandre.zenas.estudos.model.subjects;
 
+import alexandre.zenas.estudos.model.user.Students;
+import alexandre.zenas.estudos.model.user.Teachers;
 import jakarta.persistence.*;
 
 import java.util.List;

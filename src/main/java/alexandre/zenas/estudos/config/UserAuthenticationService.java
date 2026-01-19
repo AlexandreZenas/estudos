@@ -1,6 +1,6 @@
 package alexandre.zenas.estudos.config;
 
-import alexandre.zenas.estudos.model.User;
+import alexandre.zenas.estudos.model.user.User;
 import alexandre.zenas.estudos.repository.UserRepository;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.core.userdetails.UserDetails;

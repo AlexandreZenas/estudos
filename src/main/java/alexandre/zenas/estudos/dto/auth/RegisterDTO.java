@@ -1,10 +1,9 @@
 package alexandre.zenas.estudos.dto.auth;
 
 import alexandre.zenas.estudos.enums.UserType;
-import alexandre.zenas.estudos.model.Students;
-import alexandre.zenas.estudos.model.Teachers;
-import alexandre.zenas.estudos.model.User;
-import org.hibernate.sql.ast.tree.expression.SqlTuple;
+import alexandre.zenas.estudos.model.user.Students;
+import alexandre.zenas.estudos.model.user.Teachers;
+import alexandre.zenas.estudos.model.user.User;
 
 public record RegisterDTO(
         String name,

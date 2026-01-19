@@ -1,7 +1,6 @@
 package alexandre.zenas.estudos.repository;
 
-import alexandre.zenas.estudos.model.User;
-import jakarta.validation.constraints.NotBlank;
+import alexandre.zenas.estudos.model.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

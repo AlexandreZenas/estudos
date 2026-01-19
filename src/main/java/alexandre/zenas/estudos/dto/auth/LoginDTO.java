@@ -1,4 +1,7 @@
 package alexandre.zenas.estudos.dto.auth;
 
-public record LoginDTO() {
+public record LoginDTO(
+        Long enrollment,
+        String password
+) {
 }

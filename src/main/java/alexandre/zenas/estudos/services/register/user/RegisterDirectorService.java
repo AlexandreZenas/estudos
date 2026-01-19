@@ -1,9 +1,9 @@
-package alexandre.zenas.estudos.services.userRegister;
+package alexandre.zenas.estudos.services.register.user;
 
 import alexandre.zenas.estudos.dto.auth.RegisterDTO;
 import alexandre.zenas.estudos.enums.UserType;
-import alexandre.zenas.estudos.model.Schools;
-import alexandre.zenas.estudos.model.User;
+import alexandre.zenas.estudos.model.school.Schools;
+import alexandre.zenas.estudos.model.user.User;
 import alexandre.zenas.estudos.repository.SchoolsRepository;
 import alexandre.zenas.estudos.repository.UserRepository;
 import org.springframework.http.HttpStatus;
